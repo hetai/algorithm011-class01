@@ -1,0 +1,35 @@
+/*
+ * @lc app=leetcode id=70 lang=cpp
+ *
+ * [70] Climbing Stairs
+ */
+
+// @lc code=start
+
+
+
+class Solution {
+public:
+    int climbStairs(int n) {
+       if (n <= 2) 
+       {
+           return n;
+       }
+       else
+       {
+        int f1 = 1;
+        int f2 = 2;
+        int f3 = 3;
+        for (int i = 3; i <= n; i++)
+        {
+            f3 = f2 + f1;
+            // for next cycle
+            f1 = f2;
+            f2 = f3;
+        }
+        return f3;            
+       }
+    }
+};
+// @lc code=end
+
