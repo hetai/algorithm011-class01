@@ -19,10 +19,11 @@ public void recur(int level, int param) {
 
 ## 分治 
 ### split/divide into sub problems and conquer each sub problems
-本质上也是递归，就是找重复性。分解问题最后
+本质上也是递归，就是找重复性。
+
+C/C++ 代码模板
 
 ```
-C/C++
 int divide_conquer(Problem *problem, int params) {
   // recursion terminator
   if (problem == nullptr) {
