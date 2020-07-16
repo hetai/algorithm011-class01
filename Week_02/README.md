@@ -20,3 +20,20 @@ The standard library includes the ordered and the unordered map (std::map and st
 # 参考资料
 ## std::map 和 std::set
 [C++ Standard Library: Associative Containers](https://app.pluralsight.com/library/courses/c-plus-plus-standard-library-associative-containers/table-of-contents)
+
+# 二叉搜索树 binary search tree
+同义词: 二叉搜索树/二叉排序树/有序二叉树/排序二叉树
+性质：
+1. 左子树上所有结点的均值小于它的根节点的值;
+2. 右子树上所有结点的均值大于它的根节点的值;
+
+常见操作:
+1. 查询 O(logn) 
+2. 插入新结点  O(logn)
+3. 删除 O(logn)
+
+
+
+
+
+
